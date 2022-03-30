@@ -1,28 +1,18 @@
 package com.calculator.restservice;
 
 public class Calculator {
-    private int a;
-    private int b;
+    private String result;
 
-    public Calculator(int a, int b) {
-        this.a = a;
-        this.b = b;
+    public Calculator(String result) {
+        this.result = result;
     }
 
-    public int getA() {
-        return a;
+    public String getresult() {
+        return result;
     }
 
-    public void setA(int a) {
-        this.a = a;
-    }
-
-    public int getB() {
-        return b;
-    }
-
-    public void setB(int b) {
-        this.b = b;
+    public void setResult(String result) {
+        this.result = result;
     }
 
     
